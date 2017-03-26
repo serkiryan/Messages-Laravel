@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="content">
 				<div class="title">Laravel 5</div>
-                                <div class="quote"><a href="#" class="btn btn-success">HTML version of Messages</a></div>
+                                <div class="quote"><a href="html/index.html" class="btn btn-success">HTML version of Messages</a></div>
 			</div>
 		</div>
 	</body>
