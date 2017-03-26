@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Messages - Register</title>
+        <link rel="shortcut icon" href="../favicon32.ico" type="image/x-icon">
+        <!-- Bootstrap -->
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/font-awesome.css">
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body id="signin-login">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="header" class="col-lg-12">
+                    <a href="../index.html">
+                        <img src="../img/messages-logo.png" alt="Messages" class="hidden-xs hidden-sm">
+                        <img src="../img/messages-logo-min.png" alt="Messages" class="hidden-md hidden-lg">
+                    </a>
+                </div>
+                <div id="sidebar" class="col-xs-2 col-sm-1 col-md-2">
+                    <div class="list-group">
+                        <a href="../html/login.html" class="list-group-item ">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">
+                                <i class="fa fa-sign-in"></i>&nbsp;&nbsp; <strong>Sign In</strong>
+                            </div>
+                            <i class="fa fa-sign-in visible-xs visible-sm hidden-md hidden-lg"></i>
+                        </a>
+                        <a href="../html/register.html" class="list-group-item ">
+                            <div class="hidden-xs hidden-sm visible-md visible-lg">
+                                <i class="fa fa-user-plus"></i>&nbsp; <strong>Sign Up</strong>
+                            </div>
+                            <i class="fa fa-user-plus visible-xs visible-sm hidden-md hidden-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <div id="rightbar" class="col-xs-10 col-sm-11 col-md-10">
+                    <div class="tabs">
+                        <ul class="nav nav-tabs">
+                            <li><a href="../html/login.html" data-toggle="tab" class="btn btn-success">Sign In <i class="fa fa-sign-in"></i></a></li>
+                            <li class="active"><a href="../html/register.html" data-toggle="tab" class="btn btn-warning">Sign Up <i class="fa fa-user-plus"></i></a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active">
+                                <form action="#" id="login-form" method="post" accept-charset="utf-8">
+                                    <br>
+                                    <label for="UserUsername">Username</label>
+                                    <input name="username" class="form-control" placeholder="Username" maxlength="100" id="UserUsername" required="required" type="text">
+                                    <br>
+                                    <label for="UserPassword">Password</label>
+                                    <input name="password" class="form-control" id="UserPassword" required="required" type="password">
+                                    <br>
+                                    <label for="UserConfirm">Confirm Password</label>
+                                    <input name="confirm" class="form-control" id="UserConfirm" required="required" type="password">
+                                    <br>
+                                    <button class="btn btn-warning" id="login-form-submit" type="submit">Sign Up <i class="fa fa-user-plus"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

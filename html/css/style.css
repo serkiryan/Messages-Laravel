@@ -56,3 +56,73 @@
 #home-index #rightbar img{
     width: 200px;
 }
+
+
+
+
+
+#signin-login{
+    margin: 0;
+    background: rgba(0,255,255,1);
+    background-size: 100% 100vh;
+}
+#signin-login #header{
+    height: 8vh;
+    float: inherit;
+    background: rgba(60,60,80,1);
+}
+#signin-login #header img{
+    max-width: 300px;
+    width: 10%;
+    margin: 10px 0;
+}
+#signin-login #sidebar{
+    position: absolute;
+    width: 15%;
+    height: 92vh;
+    background: rgba(255,255,255,0.95);
+    float: left;
+    background-size: cover;
+}
+#signin-login #sidebar .list-group a.list-group-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    background: 0;
+    border: 0;
+    color: #000;
+    padding-left: 5px;
+}
+#signin-login #sidebar .list-group .list-group-item {
+    padding: 15px;
+}
+#signin-login #sidebar .list-group {
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+}
+#signin-login #rightbar{
+    position: fixed;
+    width: 30%;
+    height: 50vh;
+    left: 16%;
+    top: 10%;
+    align-content: center;
+    background: rgba(255,255,255,0.95);
+    background-size: cover;
+    border-radius: 20px;
+}
+#signin-login #rightbar .content{
+    position: relative;
+    top: 20%;
+    font-family: arial;
+    font: 40px arial;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+#signin-login #rightbar img{
+    width: 200px;
+}
